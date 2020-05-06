@@ -22,8 +22,8 @@ new_dir = path + '/new-dir/'
 
 
 for x in files: #課題3 & 課題4
-file_size =os.path.getsize(new_dir+ x)
-print(x,str(file_size))
+    file_size =os.path.getsize(new_dir+ x)
+    print(x,str(file_size))
 os.rename(new_dir + x,new_dir + x + "2")
 
 print(os.listdir(new_dir_path))
